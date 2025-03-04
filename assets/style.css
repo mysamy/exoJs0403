@@ -1,0 +1,182 @@
+
+/* Base styles for the webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+
+  background-image: url("https://picsum.photos/1920/1080?random=1");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    color: gray;
+}
+
+p {
+    text-align: center;
+    white-space: normal;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: violet;
+}
+
+ul {
+    
+    
+ 
+}
+
+li {
+    list-style: none;
+
+
+}
+
+nav {
+    background-color: rgb(9, 148, 51);
+    height:40x;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+
+header,
+footer {
+    background-color: gray;
+}
+
+header h1,
+footer p {
+    text-align: center;
+ 
+}
+
+.container {
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+ 
+}
+section {
+    margin-top: 150px;
+    
+    background-color: rgb(234, 239, 195);
+    padding: 10px 10%;
+
+}
+.card > .container-img {
+    height: 70%;
+    width: 100%;
+ 
+}
+
+.card > .container-img img {
+    height: 100%;
+    width: 100%;
+ 
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    border-radius: 5%;
+    
+
+}
+
+.card:hover {
+    background-color: rgba(128, 128, 128, 0.571);
+    color: white;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 300px;
+    width: 500px;
+    background-color: tomato;
+    justify-self: center;
+
+ 
+}
+
+label {
+    font-size: 2em;
+ 
+}
+
+input {
+    
+
+}
+
+button {
+
+}
+
+button:hover {
+    color: honeydew;
+
+}
+.container__button {
+    display: flex;
+    align-self: center;
+    gap: 100px;
+}
+
+#section1 {
+ height: 200vh;
+}
