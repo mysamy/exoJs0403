@@ -52,19 +52,20 @@
                               <p>SQL est un langage de programmation pour gérer les bases de données relationnelles.</p>
                         </div>
                   </div>
-                  <form action="">
+                  <form method="get">
                         <label for="image">image</label>
-                        <input type="url" id="image" />
+                        <input type="url" id="image" >
 
                         <label for="titre">titre</label>
-                        <input type="text" id="titre" />
+                        <input type="text" id="titre" >
 
                         <label for="description">description</label>
-                        <input type="text" id="description" />
+                        <input type="text" id="description" >
 				    
                         <div class="container__button">
-                              <button type="button" onclick="ajouterCard()" class="buttonAjouter">ajouter</button>
-                              <button type="button" class="buttonEffacer">effacer</button>
+                              <button  type="submit" class="buttonAjouter">Ajouter</button>
+                              <button  type="submit" class="buttonEffacer">effacer</button>
+                              <button type="reset">Réinitialiser</button>
                         </div>
                   </form>
             </section>

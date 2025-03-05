@@ -155,11 +155,11 @@ form {
 
 label {
     font-size: 2em;
- 
+    align-self: center;
 }
 
 input {
-    
+    margin: 0 20px;
 
 }
 
